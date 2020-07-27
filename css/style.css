@@ -1,0 +1,315 @@
+/* ============================
+        default  values:
+        font familly = roboto
+        greenish Blue:#34c6d3 (Buttons,icons,links& background)
+        Steel grey:#41464b (headings)
+        blue bayoux : #64707b (paragraph)
+        white : #fff (text with black background)
+
+================================*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/home-cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+
+
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 80px;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+
+#home-btn a {
+    border-color: #fff;
+    border-width: 2px;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 10px;
+}
+
+
+#home-btn a:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.content-box {
+    padding: 60px 0px;
+}
+
+.content-title h3 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #34c6d3;
+    margin: 0 auto;
+}
+
+.service-item {
+    margin-left: 100px;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    color: #34c6d3;
+    float: left;
+    padding: 15px;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+    color: #fff;
+    background: #34c6d3;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0px 5px 0px;
+}
+
+
+#about-btn a {
+    border-color: #34c6d3;
+    border-width: 2px;
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #34c6d3;
+    padding: 10px 10px;
+    margin-left: 0px;
+}
+
+
+#about-btn a:hover {
+    color: black;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title .content-title-underline {
+    margin: 0 0 30px 0px;
+}
+
+#about-des p {
+    margin-bottom: 30px;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../img/about.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*======================================
+               SOCIAL ICONS
+=========================================*/
+
+.social-list {
+    padding-left: 0px;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+}
+
+
+.social-icon i {
+    font-size: 17px;
+}
+
+
+
+.icon-white i {
+    color: white;
+}
+
+.social-icon i:hover {
+
+    color: #34c6d3;
+}
+
+
+/*======================================
+               CONTACT
+=========================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid #000;
+}
+
+
+#contact-left h3,
+#contact-right h3 {
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+
+#contact-info {
+    background-image: url(../img/world-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#contact-info address {
+    color: white;
+
+}
+
+address strong,
+#phoen-fax-email strong {
+    letter-spacing: 1px;
+}
+
+
+form .form-control {
+    background: transparent;
+    border-radius: 0px;
+    border-color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+/*======================================
+                FOOTER
+=========================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0px;
+    margin-top: 60px;
+
+}
+
+#footer-copyrights p {
+    margin: 0px;
+    color: white;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 10px;
+    text-decoration: none;
+
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
+}
